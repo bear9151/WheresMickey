@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MinnieFont';
+    src: url('fonts/minnie.eot');
+    src: url('fonts/minnie.eot?#iefix') format('embedded-opentype'),
+    url('fonts/minnie.woff') format('woff'),
+    url('fonts/minnie.ttf') format('truetype'),
+    url('fonts/minnie.svg#Minnie') format('svg');
+}
+
+@font-face {
+    font-family: 'MickeyFont';
+    src: url('fonts/mickey.eot');
+    src: url('fonts/mickey.eot?#iefix') format('embedded-opentype'),
+    url('fonts/mickey.woff') format('woff'),
+    url('fonts/mickey.ttf') format('truetype'),
+    url('fonts/mickey.svg#Mickey') format('svg');
+}
+
+.hero-logo {
+    font-family: 'MickeyFont', 'Raleway', sans-serif;
+    color: #A21010;
+    font-size: 26px;
+}
+
+.navbar-link {
+    font-family: 'MinnieFont', 'Raleway', sans-serif;
+    color: #F0B728;
+    font-size: 18px;
+}
