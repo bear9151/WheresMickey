@@ -18,6 +18,8 @@ class CreateCharactersTable extends Migration
             $table->string('name');
             $table->string('unit');
             $table->string('studio');
+            $table->text('description');
+            $table->string('img_url', 2000);
         });
     }
 

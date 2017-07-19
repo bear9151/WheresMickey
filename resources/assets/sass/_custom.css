@@ -27,3 +27,25 @@
     color: #F0B728;
     font-size: 18px;
 }
+
+.char-well {
+    background-color: #1d96d7;
+}
+
+.char-link {
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.char-link:hover {
+    color: white;
+}
+
+.char-icon {
+    height: 75px;
+    width: 75px;
+    margin-right: 20px;
+    background-color: white;
+    object-fit: cover;
+}

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Lato);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -1402,7 +1402,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 1.6;
   color: #636b6f;
@@ -7499,7 +7499,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7633,7 +7633,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8372,5 +8372,28 @@ button.close {
   font-family: 'MinnieFont', 'Raleway', sans-serif;
   color: #F0B728;
   font-size: 18px;
+}
+
+.char-well {
+  background-color: #1d96d7;
+}
+
+.char-link {
+  color: white;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.char-link:hover {
+  color: white;
+}
+
+.char-icon {
+  height: 75px;
+  width: 75px;
+  margin-right: 20px;
+  background-color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 

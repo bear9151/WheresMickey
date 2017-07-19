@@ -17,3 +17,5 @@ Route::get('/about', 'PagesController@about');
 
 Route::resource('characters', 'CharactersController');
 
+Route::resource('places', 'PlacesController');
+

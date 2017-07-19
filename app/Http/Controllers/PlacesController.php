@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Character;
+use App\Place;
 
-class CharactersController extends Controller
+class PlacesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class CharactersController extends Controller
      */
     public function index()
     {
-        $characters = Character::orderBy('name', 'asc')->paginate(10);
-        return view('characters.index')->with('characters', $characters);
+        $places = Place::orderBy('place_name', 'asc')->paginate(10);
+        return view('places.index')->with('places', $places);
     }
 
     /**
@@ -47,8 +47,8 @@ class CharactersController extends Controller
      */
     public function show($id)
     {
-        $character = Character::find($id);
-        return view('characters.show')->with('character', $character);
+        $place = Place::find($id);
+        return view('places.show')->with('place', $place);
     }
 
     /**
