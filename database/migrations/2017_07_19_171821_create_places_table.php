@@ -20,10 +20,11 @@ class CreatePlacesTable extends Migration
             $table->string('park');
             $table->string('site');
             $table->string('type');
-            $table->boolean('photos');
-            $table->boolean('autographs');
-            $table->boolean('fastpass');
-            $table->boolean('seasonal');
+            $table->boolean('photos')->nullable();
+            $table->boolean('autographs')->nullable();
+            $table->boolean('fastpass')->nullable();
+            $table->boolean('seasonal')->nullable();
+            $table->string('img_url', 2000)->nullable();
         });
     }
 
