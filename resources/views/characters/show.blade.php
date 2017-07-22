@@ -23,11 +23,59 @@
  <div class="row">
      <br>
         <div class="col-sm-6">
-            <div>{{$character->description}}</div>
-            <div>related chars</div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    WDW
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    DLR
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    TDR
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    DLP
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    HKDR
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    SHDR
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                    DCL
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                    DVC
+                </div>
+            </div>
+
         </div>
         <div class="col-sm-6">
             <div>{{$character->description}}</div>
+            <br>
             <div>Related Characters:</div>
         </div>
     </div>
