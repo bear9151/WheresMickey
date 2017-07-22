@@ -19,3 +19,11 @@ Route::resource('characters', 'CharactersController');
 
 Route::resource('places', 'PlacesController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

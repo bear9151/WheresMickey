@@ -16,19 +16,15 @@
     url('fonts/mickey.svg#Mickey') format('svg');
 }
 
-/*.navbar {*/
-    /*background-color: #a9a9a9;*/
-/*}*/
-
 .hero-logo {
     font-family: 'MickeyFont', 'Lato', sans-serif;
-    color: #A21010;
+    color: #A21010 !important;
     font-size: 26px;
 }
 
 .navbar-link {
     font-family: 'MinnieFont', 'Lato', sans-serif;
-    color: #F0B728;
+    color: #F0B728 !important;
     font-size: 18px;
 }
 
