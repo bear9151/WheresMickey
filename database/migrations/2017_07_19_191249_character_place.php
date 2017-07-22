@@ -18,7 +18,7 @@ class CharacterPlace extends Migration
             $table->integer('character_id');
             $table->integer('place_id');
             $table->enum('frequency', ['Never', 'Occasionally', 'Always', 'Multiple'])->default('Always');
-            $table->enum('category', ['Corporate Costume', 'Show Specific', 'Puppet', 'Static Figure', 'Animatronic', 'Digital'])->default('Corporate Costume');
+            $table->enum('category', ['Standard', 'Show Specific', 'Puppet', 'Static Figure', 'Animatronic', 'Digital', 'Inflatable', 'Unknown', 'Other'])->default('Unknown');
         });
     }
 

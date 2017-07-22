@@ -8362,16 +8362,37 @@ button.close {
   src: url(/fonts/mickey.eot?403def2320a25587a29c23be1a2de83c) format("embedded-opentype"), url(/fonts/mickey.woff?331c4408cc8ad81e2236819bb9eb48de) format("woff"), url(/fonts/mickey.ttf?fe364f5d31f944dcc0564ae7df817e17) format("truetype"), url(/fonts/mickey.svg?c932f714ec34d39c2c362366a975c618) format("svg");
 }
 
+/*.navbar {*/
+
+/*background-color: #a9a9a9;*/
+
+/*}*/
+
 .hero-logo {
-  font-family: 'MickeyFont', 'Raleway', sans-serif;
+  font-family: 'MickeyFont', 'Lato', sans-serif;
   color: #A21010;
   font-size: 26px;
 }
 
 .navbar-link {
-  font-family: 'MinnieFont', 'Raleway', sans-serif;
+  font-family: 'MinnieFont', 'Lato', sans-serif;
   color: #F0B728;
   font-size: 18px;
+}
+
+.landing-well {
+  background-color: #A21010;
+}
+
+.landing-header {
+  font-family: 'MinnieFont', 'Lato', sans-serif;
+  color: #F5D027;
+  text-align: center;
+}
+
+.landing-sub-header {
+  font-family: 'MinnieFont', 'Lato', sans-serif;
+  text-align: center;
 }
 
 .char-well {
@@ -8452,6 +8473,7 @@ button.close {
 .char-label-place {
   font-size: 30px;
   vertical-align: middle;
+  color: inherit;
 }
 
 .glyphicon-ok:before,

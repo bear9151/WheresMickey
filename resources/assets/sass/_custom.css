@@ -16,16 +16,35 @@
     url('fonts/mickey.svg#Mickey') format('svg');
 }
 
+/*.navbar {*/
+    /*background-color: #a9a9a9;*/
+/*}*/
+
 .hero-logo {
-    font-family: 'MickeyFont', 'Raleway', sans-serif;
+    font-family: 'MickeyFont', 'Lato', sans-serif;
     color: #A21010;
     font-size: 26px;
 }
 
 .navbar-link {
-    font-family: 'MinnieFont', 'Raleway', sans-serif;
+    font-family: 'MinnieFont', 'Lato', sans-serif;
     color: #F0B728;
     font-size: 18px;
+}
+
+.landing-well {
+    background-color: #A21010;
+}
+
+.landing-header {
+    font-family: 'MinnieFont', 'Lato', sans-serif;
+    color: #F5D027;
+    text-align: center;
+}
+
+.landing-sub-header {
+    font-family: 'MinnieFont', 'Lato', sans-serif;
+    text-align: center;
 }
 
 .char-well {
@@ -99,6 +118,7 @@
 .char-label-place {
     font-size: 30px;
     vertical-align: middle;
+    color: inherit;
 }
 
 .glyphicon-ok:before, .glyphicon-heart:before, .glyphicon-remove:before, .glyphicon-question-sign:before {

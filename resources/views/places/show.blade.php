@@ -18,7 +18,7 @@
         <div class="col-md-6">
             @foreach($place->characters as $character)
                 <img class="char-icon img-circle" src="{{$character->img_url}}" alt="{{$character->name}}">
-                <span class="char-label-place">{{$character->name}}</span>
+                <a class="char-label-place" href="/characters/{{$character->id}}">{{$character->name}}</a>
                 <br>
                 <br>
             @endforeach
