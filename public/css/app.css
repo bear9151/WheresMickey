@@ -8398,7 +8398,8 @@ button.close {
 }
 
 .char-icon,
-.char-icon-place {
+.char-icon-place,
+.char-icon-show {
   height: 75px;
   width: 75px;
   margin-right: 20px;
@@ -8413,6 +8414,11 @@ button.close {
      object-fit: cover;
   margin: 5px;
   float: right;
+}
+
+.char-icon-show {
+  width: 100%;
+  height: auto;
 }
 
 .place-label {
@@ -8453,5 +8459,26 @@ button.close {
 .glyphicon-remove:before,
 .glyphicon-question-sign:before {
   vertical-align: middle;
+}
+
+.char-title {
+  font-size: 44px;
+  margin-top: 12px;
+  line-height: 1.2;
+}
+
+.char-subtitle {
+  font-size: 28px;
+  margin-top: 4px;
+  line-height: 1.2;
+}
+
+.vertical-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
