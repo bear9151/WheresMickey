@@ -25,7 +25,10 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
-        </div>    </div>
+        </div>
+
+        @include('inc.footer')
+    </div>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
